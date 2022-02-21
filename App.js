@@ -1,7 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React, {useState} from 'react';
-import { StyleSheet, Text, View, TouchableOpacity, Image, KeyboardAvoidingView, TextInput, Modal } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import { StyleSheet, Text, View, TouchableOpacity, Image, KeyboardAvoidingView, TextInput, Modal, SafeAreaView } from 'react-native';
 
 export default function App() {
   const [tela, setTela] = useState('login');
@@ -153,6 +152,7 @@ const styles = StyleSheet.create({
   backgroundImg: {
     flexDirection: 'row',
     width: '20%',
+    marginTop: 30,
   },
   btnMenu: {
     marginLeft: 20,
